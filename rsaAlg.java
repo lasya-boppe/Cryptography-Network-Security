@@ -53,6 +53,7 @@ this.n = n;
 public static void main (String[] args) throws java.lang.Exception
 {
 rsaAlg rsaObj = new rsaAlg();
+System.out.println("Enter text:");
 Scanner sc = new Scanner(System.in);
 String msg = sc.nextLine();
 System.out.println("RSA algorithm");
